@@ -1,0 +1,78 @@
+.instagram{
+  width: 100px;
+  height: 100px;
+}
+.line{
+  width: 100px;
+  height: 100px;
+}
+.book{
+  width: 100px;
+  height: 150px;
+}
+.title{
+  display: grid;
+  grid-template-columns: 400px 100px 100px ;
+  justify-content: center;
+  padding: 2em 1em;
+  margin: 2em;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mybook{
+  width: 400px;
+  height: 100px;
+}
+.new_book{
+  display: grid;
+  grid-template-columns: 200px 150px 100px 100px 100px 100px 100px;
+  justify-content: center;
+  margin: 7em;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.new_book p{
+  font-size: 100px;
+}
+image.book{
+  width: 400px;
+  height: 100px;
+}
+
+
+.slider {
+  
+  font-family: sans-serif;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vw);
+  scroll-snap-type: x mandatory;
+  display: flex;
+  overflow-x: scroll;
+}
+section {
+  min-width: 100vw;
+  height: 20vh;
+  scroll-snap-align: start;
+  text-align: center;
+}
+h1  {
+  padding-top: 45vh;
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-size: calc(1rem + 3vw);
+}
+section:first-of-type{
+  background: #5ab4bd;
+}
+section:nth-of-type(2){
+  background: #ef898f;
+}
+section:nth-of-type(3){
+  background: #ecc46d;
+}
+section:nth-of-type(4){
+  background: #03B583;
+}
