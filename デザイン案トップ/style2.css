@@ -1,0 +1,29 @@
+.toi{
+    text-align: center;
+    width: 262px;
+    height: 61px;
+    background-image: url(./image/btn-wood.jpg);
+
+}
+.toi p{
+    font-family: serif;
+    color:	#FFFFFF;
+    font-size: 32px;
+
+}
+input[type="text" ]{
+    width: 320px;
+    height: 49px;
+}
+input[type="email" ]{
+    width: 320px;
+    height: 49px;   
+}
+select{
+    width: 320px;
+    height: 49px;   
+}
+textarea{
+    width: 320px;
+    height: 114px;   
+}

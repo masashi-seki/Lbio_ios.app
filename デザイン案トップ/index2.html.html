@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>お問い合わせ</title>
+
+    <script src="components/loader.js"></script>
+    <script src="js/Initial_Setting.js"></script>
+    <script src="js/logout.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/Inquiry.js"></script>
+
+</head>
+<body background="./image/new_haikei.jpg">
+    <header>
+    </header>
+        <div class="toi">
+            <p>問い合わせ</p>
+         </div>
+    <div class="tm-flex-lr8 ipad-font2">
+        <div class="centering_parent">
+            <p>お名前</p>
+            <input type="text" name="name" placeholder="お名前" id="name" class="ipad-input"><br/>
+            <p>メールアドレス</p>
+            <input type="email" name="email" placeholder="メールアドレス" id="email" class="ipad-input"><br/>
+
+            <div class="subject">
+                <label for="subject"></label>
+                <p>問い合わせ内容</p>
+                <select placeholder="Subject line" name="subject" id="title" class="ipad-select" required>
+                    <option disabled hidden selected>内容</option>
+                    <option>株式会社Lbioについて</option>
+                    <option>「Lbioの厳選新刊」について</option>
+                    <option>「季節の選書」について</option>
+                    <option>「今月のLbio選書」について</option>
+                    <option>「Lbio選書履歴」について</option>
+                    <option>本の購入について</option>
+                    <option>有料会員登録の解除について</option>
+                    <option>会員登録の解除について</option>
+                    <option>その他</option>
+                </select>
+            </div>
+            <p>&nbsp;</p>
+            <textarea type="text" name="message" placeholder="詳しい問い合わせ内容" id="contents" class="ipad-text"></textarea>
+            <p></p>
+            <a href="#" class="btn btn--orange btn--radius ipad-font" onclick="send()">送信</a>
+            <p>&nbsp;</p>
+            
+
+        </div>
+    </div>
+<footer>
+</footer>
+</body>
+
+</html>
